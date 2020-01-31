@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ormoci"
+    android:background="@color/colorPrimaryDark"
     tools:context=".RegistrationActivity">
 
 
@@ -12,9 +12,9 @@
         android:id="@+id/back3btn"
         android:layout_width="235dp"
         android:layout_height="70dp"
-        android:background="#00611616"
+        android:background="#E04E4E"
         android:text="უკან"
-        android:textColor="#B61313"
+        android:textColor="#FDFCFC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +36,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Email*"
-            android:textColorHint="#EBAAAA"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColorHint="#EBAAAA" />
 
         <EditText
             android:id="@+id/Password3Btn"
@@ -45,8 +45,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Password*"
-            android:textColorHint="#EBAAAA"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColorHint="#EBAAAA" />
 
         <TextView
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
             android:id="@+id/RegistrBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#4CAF50"
+            android:background="#AF4C60"
             android:text="დარეგისტრირება"
             android:textColor="#fff" />
 

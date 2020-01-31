@@ -4,24 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ormoci"
+    android:background="#1E63B6"
     tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="197dp"
-        android:layout_height="172dp"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="89dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.645"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.634"
-        app:srcCompat="@drawable/imageee" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -59,7 +43,7 @@
             android:id="@+id/LoginBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#3AAD3F"
+            android:background="#AD3A3A"
             android:text="ავტორიზაცია"
             android:textColor="#fff" />
 
@@ -71,7 +55,7 @@
             android:id="@+id/RegistrationBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#3AAD3F"
+            android:background="#AD3A3A"
             android:text="რეგისტრაცია"
             android:textColor="#fff" />
 
@@ -81,9 +65,9 @@
         android:id="@+id/ForgotPasswordBtn"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:background="#00611616"
+        android:background="@color/colorAccent"
         android:text="პაროლის აღდგენა"
-        android:textColor="#3069DB"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

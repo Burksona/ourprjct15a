@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sccc"
+    android:background="@drawable/screen"
     tools:context=".UserActivity">
 
     <LinearLayout
@@ -32,8 +32,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="ტელეფონი*"
-            android:textColor="#E20B0B"
             android:inputType="phone"
+            android:textColor="#E20B0B"
             android:textColorHint="#EBAAAA" />
 
         <EditText
@@ -42,8 +42,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="მისამართი*"
-            android:textColor="#E20B0B"
             android:inputType="textPostalAddress"
+            android:textColor="#E20B0B"
             android:textColorHint="#EBAAAA" />
 
         <Button
